@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	uuid "github.com/satori/go.uuid"
+	"github.com/gofrs/uuid"
 )
 
 // TestBackendRedisGetResult is Redis specific test to get result from backend

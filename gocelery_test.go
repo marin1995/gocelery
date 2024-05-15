@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/gofrs/uuid"
 	"github.com/gomodule/redigo/redis"
-	uuid "github.com/satori/go.uuid"
 )
 
 const TIMEOUT = 2 * time.Second
